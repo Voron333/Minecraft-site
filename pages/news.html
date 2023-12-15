@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icons8-minecraft-96 (1).png" type="image/x-icon">
+    <title>Minecraft</title>
+    <style>
+        body {
+            background-color: rgb(0, 255, 136);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            background-color: azure;
+            color: black;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .post-img {
+            max-width: 400px;
+            max-height: 200px;
+            border-radius: 40px;
+            width: 100%;
+        }
+
+        .post-card {
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            margin: 20px 0;
+            transition: transform 0.2s;
+            box-shadow: 0 0 10px rgb(0, 63, 250);
+            padding: 20px;
+        }
+
+        .post-card:hover {
+            transform: scale(1.10);
+        }
+
+        .post-title {
+            font-size: 24px;
+            color: blue;
+            margin-bottom: 30px;
+        }
+
+        .post-content {
+            font-size: 20px;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgba(1, 8, 8, 0.178);
+            color: black;
+            padding: 10px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        nav {
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(240, 243, 243);
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        .news-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .news-article {
+            background-color: rgb(240, 243, 243);
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgb(0, 63, 250);
+            color: black;
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .news-article:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgb(0, 0, 0, 0.2);
+        }
+
+
+        .news-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+
+        .news-content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+
+        .news-date {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Вітаю на моєму сайті про Майнкрафт</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./video.html">Video</a>
+        <a href="./news.html">News</a>
+        <a href="./contacts.html">Contacts</a>
+    </nav>
+
+
+    <div class="container">
+        <div class="news-container">
+
+            <div class="news-article">
+                <h2 class="news-title">Что добавят в Minecraft 1.21</h2>
+
+                <p class="news-content">Бриз — это новый враждебный моб. По внешнему виду он похож на всполоха и на
+                    небольшой смерч. Он умеет летать и стрелять в игроков, нанося им урон.
+
+                    Будет ли он встречаться где-либо помимо дворцов испытаний — неизвестно.Медная лампа — это светящийся
+                    блок, который светит тускло или ярко в зависимости от степени окисление.</p>
+
+                <p class="news-date">15.10.23</p>
+            </div>
+
+
+            <div class="news-article">
+                <h2 class="news-title">Minecraft Wiki «отпочковалась» и открылась по новому адресу</h2>
+                <p class="news-content">Возможно, вы уже видели новость о том, что Minecraft Wiki переехала и доступна
+                    по новому адресу: minecraft.wiki.
+
+                    Это действительно так, но это далеко не вся новость, поэтому я хочу очень кратко остановиться на
+                    ряде моментов.
+
+                    Minecraft Wiki не переехала, а «отпочковалась» — была создана копия, которая будет развиваться
+                    сообществом.
+                    Старая Wiki никуда не делась и доступна по старому адресу.
+                    Переезд связан с разногласиями сообщества Wiki с владельцем портала Fandom, а также «репутацией
+                    Minecraft-Wiki на Fandom» (имеется в виду «конкурирующая» Wiki, которая существовала во времена Wiki
+                    на Curse).
+                    В настоящее время запущена англоязычная Wiki.
+                    Русскоязычная Wiki также готовится к переезду. </p>
+
+
+
+
+                <p class="news-date">25.09.23</p>
+            </div>
+
+
+
+
+            <div class="news-article">
+                <h2 class="news-title">В демоверсию Minecraft добавили поддержку ИИ</h2>
+                <p class="news-content"> Издание Semafor сообщило о том, что компания Miсrosoft продемонстрировала
+                    внутреннюю демоверсию Minecraft, в которую была добавлена поддержка технологии искусственного
+                    интеллекта.
+
+                    Благодаря этому можно управлять персонажем (строить, копать, перемещаться), отдавая ему команды
+                    вместо обычного управления.</p>
+
+
+
+
+                <p class="news-date">18.02.23</p>
+            </div>
+
+
+            <div class="news-article">
+                <h2 class="news-title">Microsoft выявила ботнет, который атакует серверы Minecraft</h2>
+                <p class="news-content">В блоге компании Microsoft появилась статья о кроссплатформенном ботнете,
+                    который занимается DDOS-атаками частных серверов Minecraft Java Edition.
+
+                    Механизм распространения таков, что после удаления вредоносного кода с зараженного ПК, он может
+                    остаться на устройствах, которые «подхватили» его от компьютера, и эти устройства продолжат быть
+                    частью ботнета. </p>
+
+
+
+
+                <p class="news-date">22.12.22</p>
+            </div>
+
+
+            <div class="news-article">
+                <h2 class="news-title">Minecraft забрал себе домен minecraft.com</h2>
+                <p class="news-content">Оказывается, Minecraft — это не только компьютерная игра, так ещё называется и
+                    австралийская инженерная консалтинговая компания, которая предоставляет услуги по горному
+                    проектированию и управлению проектами в области угледобычи.
+
+                    С игрой эту компанию роднит только одно — название и… проектирование шахт. </p>
+
+
+
+
+                <p class="news-date">17.11.22</p>
+            </div>
+
+
+            <div class="news-article">
+                <h2 class="news-title">Minecraft Preview доступна в Microsoft Store</h2>
+                <p class="news-content">В Microsoft Store появилась новая игра… Minecraft Preview. Это отдельная версия
+                    игры, которая представляет собой предварительную (бета) версию Minecraft Bedrock для Windows 10/11.
+
+                    Обычные бета-версии, которые раньше можно было установить с помощью приложения Xbox Insider Hub,
+                    больше не будут доступны. </p>
+
+
+
+
+                <p class="news-date">10.02.22</p>
+            </div>
+
+
+            <div class="news-article">
+                <h2 class="news-title">Выявлена критическая уязвимость, угрожающая серверам и клиентам Minecraft</h2>
+                <p class="news-content">В популярном фреймворке Apache Log4j, предназначенном для ведения журналирования
+                    в Java-приложениях, выявлена критическая уязвимость, которая позволяет выполнить произвольный код
+                    при записи в лог сообщения в определённом формате.
+
+                    Библиотека Log4j очень популярна и практически стала стандартом. Ею пользовались многие
+                    Java-разработчики, а, значит, угрозе сейчас потенциально подвержено множество приложений. </p>
+
+
+
+
+                <p class="news-date">10.12.21</p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <footer>
+        &copy;2023 Zaitceva Polina
+    </footer>
+</body>
+
+</html>
